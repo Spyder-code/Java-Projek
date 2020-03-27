@@ -1,0 +1,93 @@
+.jumbotron img {
+	width: 200px;
+}
+
+.img1 h1 {
+	color: whitesmoke;
+}
+
+.jumbotron {
+	background-color: #09f;
+}
+
+.home {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.intro {
+	background-color: #09f;
+	color: whitesmoke;
+}
+
+.intro img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 500px;
+	height: 300px;
+}
+
+.intro p {
+	padding-top: 40px;
+}
+
+.fitur {
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+footer {
+	background-color: #333;
+	height: 100px;
+	position: absolute;
+	width: 100%;
+	padding-top: 30px;
+}
+
+footer p {
+	color: #aaa;
+}
+
+.contact {
+	width: 100%;
+	background-color: #aaa;
+	padding-left: 50px;
+	height: 50px;
+}
+
+.contact h5 {
+	padding-top: 12px;
+	color: #fff;
+}
+
+.contact a {
+	color: #15f;
+}
+
+nav a {
+	padding-right: 300px;
+}
+
+nav i {
+	font-size: 50px;
+	float: right;
+	color: tomato;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 210px;
+
+}
+
+.list-group {
+	width: 1100px;
+}
+
+.animasi img {
+	width: 170px;
+	height: 150px;
+
+}
+
+.container {
+	height: 100%;
+}
