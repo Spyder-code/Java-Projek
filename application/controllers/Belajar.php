@@ -68,4 +68,19 @@ class Belajar extends CI_Controller
             $this->load->view('templates/user/home_footer');
         }
     }
+    public function operator()
+    {
+        $data['title'] = 'JP | Belajar';
+        if ($this->input->post('keyword')) {
+            $data['title'] = 'JP | Search';
+            $data['belajar'] = $this->belajar_model->cariDataBelajar();
+            $this->load->view('templates/user/home_header', $data);
+            $this->load->view('public/search');
+            $this->load->view('templates/user/home_footer');
+        } else {
+            $this->load->view('templates/user/home_header', $data);
+            $this->load->view('public/belajar/operator');
+            $this->load->view('templates/user/home_footer');
+        }
+    }
 }
