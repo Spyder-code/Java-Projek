@@ -69,11 +69,11 @@ class Belajar extends CI_Controller
             $this->load->view('templates/user/home_footer');
         }
     }
-<<<<<<< HEAD
-    public function percabangan(){
-        
+    public function percabangan()
+    {
             $data['title'] = 'JP | Belajar';
-            if ($this->input->post('keyword')) {
+            if ($this->input->post('keyword'))
+            {
                 $data['title'] = 'JP | Search';
                 $data['belajar'] = $this->belajar_model->cariDataBelajar();
                 $this->load->view('templates/user/home_header', $data);
@@ -84,8 +84,7 @@ class Belajar extends CI_Controller
                 $this->load->view('public/belajar/percabangan');
                 $this->load->view('templates/user/home_footer');
             }
-        
-=======
+    }
     public function operator()
     {
         $data['title'] = 'JP | Belajar';
@@ -100,6 +99,5 @@ class Belajar extends CI_Controller
             $this->load->view('public/belajar/operator');
             $this->load->view('templates/user/home_footer');
         }
->>>>>>> 8debfcf8e8bc1121dd6cb0a44d36047115467e83
     }
 }
