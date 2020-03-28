@@ -22,7 +22,7 @@
                         <a href="<?= base_url('belajar/operator'); ?>" class="list-group-item list-group-item-action">03-Operator</a>
                         <a href="<?= base_url('belajar/percabangan'); ?>" class="list-group-item list-group-item-action">04-Percabangan</a>
                         <a href="<?= base_url('belajar/perulangan'); ?>" class="list-group-item list-group-item-action">05-Perulangan</a>
-                        <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">06-Fungsi(Method) <i class="fas fa-lock"></i></a>
+                        <a href="<?= base_url('belajar/fungsi'); ?>" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">06-Fungsi(Method) <i class="fas fa-lock"></i></a>
                     </div>
                 </div>
             </div>
